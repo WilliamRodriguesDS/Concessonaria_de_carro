@@ -11,7 +11,7 @@ for(let i = 0; i < carros.length; i++){
     msg += "Modelo: " + carros[i].Modelo + "<br>";
     msg += "Ano: " + carros[i].Ano + "<br>";
     msg += descrever(carros[i]) + "<br>";
-    msg += "<p>" + "</p>"
+    msg += "<br>"
 }
 
 document.querySelector("#output").innerHTML = msg
