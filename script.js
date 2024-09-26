@@ -3,7 +3,7 @@ let carros = [{"Marca": "Ferrari", "Modelo": "F40", "Ano": 1987}, {"Marca": "For
 let msg = "";
 
 function descrever(carros){
-    return "Descrição: "  + "A marca deste carro é " + carros.Marca + ", além disso, o seu modelo é " + carros.Modelo + " e o seu ano de fabricação foi em " + carros.Ano; 
+    return "Descrição: "  + "A marca deste carro é " + carros.Marca + ", além disso, o seu modelo é " + carros.Modelo + " de ano " + carros.Ano; 
 }
 
 for(let i = 0; i < carros.length; i++){
